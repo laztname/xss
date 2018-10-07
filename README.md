@@ -29,6 +29,7 @@ if xss reflected, attacker usually use shortlink to avoid suspicion and make the
 if xss stored, attacker usually just wait for the payload triggered from another user
 
 and this will happen
+
 ![popup](https://raw.githubusercontent.com/laztname/xss/master/the.gif)
 
 if the user of your website doesn't aware about security then they just believe it and don't know that was a scam accidentally they send their credential to the evil.com
@@ -40,3 +41,11 @@ make sure filter any input from your website and don't forget to strip any html 
 NO, attacker can use any javascript payload to use your website that vulnerable from xss
 for any variation payload see it here http://www.xss-payloads.com/payloads-list.html?a#category=all
 
+# more information you can get from here
+https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
+
+# special thanks to
+- Allah
+- my laptop
+- surabayahackerlink.org
+- xss-payloads.com
