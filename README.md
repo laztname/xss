@@ -29,7 +29,7 @@ if xss reflected, attacker usually use shortlink to avoid suspicion and make the
 if xss stored, attacker usually just wait for the payload triggered from another user
 
 and this will happen
-![popup](img)
+![popup](https://raw.githubusercontent.com/laztname/xss/master/the.gif)
 
 if the user of your website doesn't aware about security then they just believe it and don't know that was a scam accidentally they send their credential to the evil.com
 
